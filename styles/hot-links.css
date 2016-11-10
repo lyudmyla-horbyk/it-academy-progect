@@ -1,0 +1,42 @@
+
+.hot-links {
+  height: 100px;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e8e8e8;
+}
+
+.hot-links .free-ship {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  padding-left: 12px;
+  padding-right: 19px;
+  box-sizing: border-box;
+
+}
+
+.hot-links .link img {
+  border: 2px solid #be926f;
+}
+
+.hot-links .link {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.hot-links .link .inform {
+  display: flex;
+  align-items: center;
+}
+
+.hot-links .link .contact {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #333333;
+  text-transform: uppercase;
+  padding-left: 11px;
+  letter-spacing: 0.5px;
+}

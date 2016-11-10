@@ -1,0 +1,440 @@
+.products {
+  overflow: hidden;
+}
+
+.products .title {
+  font-size: 1.2em;
+  margin-top: 54px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+
+}
+
+.featured-product {
+  flex-basis: 25%;
+  box-sizing: border-box;
+  flex-shrink: 0; /*щоб елементи незвужувалися*/
+  border: 1px solid #e6e6e6;
+  padding: 22px 37px 17px 38px;
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+.featured-product:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+
+.featured-product + .featured-product {
+  border-left: 0;
+}
+
+.featured-products-list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+}
+
+.product-actions {
+  position: relative;
+  border: 1px solid #ffe0cb;
+  width: 210px;
+  height: 210px;
+  margin: 10px auto 0 auto;
+}
+
+.product-actions:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: opacity 1s;
+
+}
+
+.product-title {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.product-category {
+  font-size: 0.88em;
+  color: #999999;
+  margin-top: 8px;
+}
+
+.product-price {
+  font-size: 1.4em;
+  padding-top: 6px;
+
+}
+
+.product-actions .addition-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 130px;
+  height: 84px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.add-to-cart:after {
+  content: '';
+  display: inline-block;
+  height: 7px;
+  width: 5px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAMAAAD3eXfcAAAACVBMVEXp7vn////p7vkgQINtAAAAAnRSTlMAAHaTzTgAAAAbSURBVHgBY2BiYmBkBJJAigFMMUAoBMEIUQMAA84ALbOwgyMAAAAASUVORK5CYII=) no-repeat;
+  margin-left: 8px;
+}
+
+.product-actions .label {
+  position: absolute;
+  width: 3.4166em;
+  height: 3.4166em;
+  background-color: #be926f;
+  top: -1.666em;
+  right: -20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 3.5;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+
+}
+
+.product-actions .addition-links .add-to-cart {
+  background-color: #be926f;
+  display: block;
+  padding: 7px 0;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 19px;
+  transition: 1s;
+}
+
+.product-actions .addition-links .add-to-cart:hover {
+  background-color: #c48350;
+  transition: 1s;
+}
+
+.product-actions .addition-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-actions .addition-links ul a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #be926f;
+  background: center no-repeat;
+}
+
+.product-actions .addition-links .to-favorites {
+  background-image: url(../images/icon-fav.png);
+  transition: 0.5s;
+}
+
+.product-actions .addition-links .to-favorites:hover {
+  background-color: #be926f;
+  transition: 0.5s;
+}
+
+.product-actions .addition-links .to-comparison {
+  background-image: url(../images/icon-compare.png);
+  transition: 0.5s;
+
+}
+
+.product-actions .addition-links .to-comparison:hover {
+  background-color: #be926f;
+  transition: 0.5s;
+}
+
+.product-actions .addition-links .zoom {
+  background-image: url(../images/icon-zoom.png);
+  transition: 0.5s;
+}
+
+.product-actions .addition-links .zoom:hover {
+  background-color: #be926f;
+  transition: 0.5s;
+}
+
+.featured-product:hover .product-actions:before,
+.featured-product:hover .product-actions .addition-links {
+  opacity: 1;
+}
+
+.sneakers-product {
+  width: 548px;
+  height: 118px;
+  border: 1px solid #e6e6e6;
+
+}
+
+.hot-sale {
+  width: 568px;
+  height: 118px;
+  border: 1px solid #e6e6e6;
+
+}
+
+.product {
+  display: flex;
+  margin-top: 15px;
+  transition: 0.5s;
+
+}
+
+.product .product-price {
+  font: 14px 'Montserrat';
+
+}
+
+.sneakers-product-item {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.product:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+
+.description .product-category {
+  margin-top: 0;
+}
+
+.sneakers-product {
+  display: flex;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+
+.sneakers-product img {
+  border: 1px solid #ffe0cb;
+}
+
+.description {
+  padding-left: 14px;
+
+}
+
+.description .product-price s {
+  color: #999999;
+
+}
+
+.hot-sale .product-title {
+  letter-spacing: 0.07em;
+}
+
+.hot-sale .product-price {
+  font: 1.18em 'Montserrat';
+}
+
+.hot-sale {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+.hot-sale .product-category{
+  padding-bottom:6px;
+}
+.hot-sale .line {
+  background-color: #be926f;
+  width: 20px;
+  height: 2px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.product .product-price {
+  color: #be926f;
+}
+
+.customer-list {
+  border: 1px solid #e6e6e6;
+  height: 139px;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  padding-top: 16px;
+
+}
+
+.product-price s {
+  color: #aeaeae;
+}
+
+.horizontal-line {
+  background-color:#e6e6e6;
+  height:1px;
+  margin-top: 61px;
+
+}
+
+.slider-header .posts {
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.posts {
+  margin: 0;
+  color: #232323;
+}
+
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+
+.slider-header .left-arrow:hover,
+.slider-header .right-arrow:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+
+.left-arrow, .right-arrow {
+  text-decoration: none;
+  color: #999999;
+  transition: 0.5s;
+  display: flex;
+  height: 23px;
+  line-height: 23px;
+
+}
+
+.left-arrow svg {
+  transform: rotate(180deg);
+}
+
+.right-arrow svg path.right-arrow-icon,
+.left-arrow svg path.left-arrow-icon {
+  fill: currentColor;
+}
+
+.left-arrow span,
+.right-arrow span {
+  text-transform: uppercase;
+  font-size: 0.866em;
+  font-weight: 700;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.goods {
+  height: 405px;
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+.goods-list {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+
+}
+
+.goods-image {
+  border: 1px solid #ffe0cb;
+}
+
+.featured-goods {
+  box-sizing: border-box;
+  flex-shrink: 0; /*щоб елементи незвужувалися*/
+  text-align: center;
+  text-decoration: none;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.time p {
+  font-size: 0.99em;
+  color: #999999;
+  padding-left: 4px;
+  margin:9px;
+
+}
+
+.goods .underscore {
+  border: 1px solid #e6e6e6;
+  width: 270px;
+  transition: 1s;
+}
+
+.featured-goods:hover .underscore {
+  border-color: #be926f;
+  transition: 1s;
+
+}
+
+.goods-title {
+  font-size: 1.2em;
+  padding-top: 18px;
+  letter-spacing: 0.4px;
+  color: #333333;
+  line-height: 1.5em;
+
+}
+
+.goods .goods-category {
+  color: #7f9f5d;
+}
+
+.goods .furniture-category {
+  color: #538dc8;
+}
+
+.goods .category {
+  color: #a677c7;
+}
+
+.goods .beauty-category {
+  color: #cd7b87;
+}
+
+.category,
+.beauty-category,
+.furniture-category,
+.goods-category {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 24px;
+}
+
+

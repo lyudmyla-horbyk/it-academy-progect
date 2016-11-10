@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Montserrat-Light'), url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+  url('../fonts/montserrat-light-webfont.woff') format('woff'),
+  url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
+  url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+}

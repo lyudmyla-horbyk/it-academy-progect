@@ -1,0 +1,66 @@
+
+.subscription {
+  height: 185px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.information .newsletter {
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+
+}
+
+.information p {
+  font-size: 1.1em;
+  color: #666666;
+  line-height: 1.6;
+  margin-top: 0;
+  letter-spacing: -0.4px;
+}
+
+.subscription .search input {
+  height: 50px;
+  width: 391px;
+  border: 1px solid #e8e8e8;
+  font-size: 1.066em;
+  font-weight: 300;
+  padding-left: 15px;
+  margin-right: 3px;
+
+
+}
+
+.subscription .search input:focus {
+  outline: none;
+}
+.search button img{
+
+}
+.subscription .search button {
+  background-color: #f8f8f8;
+  border: 1px solid #be926f;
+  height: 50px;
+  width: 200px;
+  font-size: 1.3em;
+  color: #333333;
+  text-transform: uppercase;
+  margin-left: 12px;
+  box-sizing: border-box;
+}
+
+.subscription .search button:focus {
+  outline: none;
+}
+.search form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

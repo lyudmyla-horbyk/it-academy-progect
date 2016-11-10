@@ -1,0 +1,55 @@
+.contacts {
+  height: 243px;
+  width: 100%;
+  display: inline-block;
+}
+
+.contacts .connection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+
+}
+
+.contacts .connection .contact-us {
+  text-align: center;
+}
+
+.contact-us .contacts-name {
+  font-size: 1.333em;
+  font-weight: 400;
+}
+
+.contact-us .phone a {
+  text-decoration: none;
+  color: #232323;
+  font: 1.6em 'Montserrat';
+  transition: 0.5s;
+}
+
+.contact-us .phone a:hover {
+  color: #be926f;
+  transition: 0.5s;
+}
+
+.contact-us p {
+  color: #666666;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: #be926f;
+  transition: 0.5s;
+
+}
+
+.contact-us a:hover {
+  color: #c48350;
+  transition: 0.5s;
+}
+
+.hr-line {
+  background-color: #e6e6e6;
+  height: 1px;
+}

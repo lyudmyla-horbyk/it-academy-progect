@@ -1,0 +1,142 @@
+/* PHONE */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .header-nav li + li {
+    margin-left: 15px;
+  }
+
+  .featured-product {
+    flex-basis: 50%;
+  }
+
+  .featured-products-list {
+    flex-wrap: wrap;
+  }
+
+  .sneakers-product {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+
+  .sneakers-product-item {
+    height: 100px;
+    width: 100%;
+  }
+
+  .hot-sale {
+    height: 200px;
+  }
+
+  .customer-list {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+
+  .testimonials p > br {
+    display: none;
+  }
+
+  .testimonials p {
+    padding-bottom: 6px;
+  }
+
+  .subscription .information,
+  .subscription .search {
+    flex-basis: 100%;
+  }
+
+  .subscription {
+    flex-wrap: wrap;
+  }
+
+  .subscription .search input {
+    width: 100%;
+  }
+
+  .subscription .search button {
+    width: 276px;
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px ) and (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .featured-product {
+    flex-basis: 50%;
+  }
+
+  .featured-products-list {
+    flex-wrap: wrap;
+  }
+
+  .sneakers-product {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+
+  .sneakers-product-item {
+    height: 100px;
+    width: 100%;
+  }
+
+  .hot-sale {
+    height: 200px;
+  }
+
+  .testimonials p > br {
+    display: none;
+  }
+
+  .subscription .search input {
+    width: 210px;
+  }
+
+  .hot-links .link .contact {
+    padding-right: 5px;
+  }
+
+  .footer-share .footer-share-facebook,
+  .footer-share .footer-share-google {
+    margin-left: 20px;
+  }
+
+  .footer .footer-privacy {
+    width: 350px;
+  }
+}
+
+/* LAPTOP */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 920px;
+  }
+
+  .featured-product {
+    flex-basis: 50%;
+  }
+
+  .featured-products-list {
+    flex-wrap: wrap;
+  }
+
+  .subscription .search input {
+    width: 282px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+
+  }
+}
+
+
+

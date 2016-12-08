@@ -36,65 +36,6 @@
   list-style: none;
 
 }
-@media (max-width: 1236px) {
-  .featured-products-list .featured-product {
-    border: 1px solid #e6e6e6;
-    flex-basis: 50%;
-  }
-}
-
-
-@media (max-width: 958px) {
-  .featured-products-list .featured-product {
-    border: 1px solid #e6e6e6;
-    flex-basis: 50%;
-  }
-}
-
-@media (max-width: 639px) {
-  .featured-products-list .featured-product {
-    border: 1px solid #e6e6e6;
-    flex-basis: 50%;
-  }
-}
-
-@media (max-width: 560px) {
-  .featured-products-list .featured-product {
-    border: 1px solid #e6e6e6;
-    flex-basis: 100%;
-  }
-}
-
-@media (max-width: 1110px) {
-
-  .featured-product + .featured-product {
-    border-left: 1px solid #e6e6e6;
-
-  }
-  .featured-product {
-    border-left: 1px solid #e6e6e6;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 974px) {
-  .featured-products-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0 0 15px;
-  }
-
-  .featured-product {
-    flex-basis: 25%;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    border: 1px solid #e6e6e6;
-    text-align: center;
-  }
-
-}
 
 .product-actions {
   position: relative;

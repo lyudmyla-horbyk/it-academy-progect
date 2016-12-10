@@ -163,3 +163,13 @@
   right: 0;
   color: black;
 }
+
+.menu-toggle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid grey;
+  margin-top: 36px;
+  border-radius: 5px;
+  background: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") no-repeat;
+  display: none;
+}

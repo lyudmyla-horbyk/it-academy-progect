@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
   .container {
     max-width: 90%;
+
   }
 
   .header-nav li + li {
@@ -10,6 +11,8 @@
 
   .featured-product {
     flex-basis: 50%;
+    margin: 0 auto;
+
   }
 
   .featured-products-list {
@@ -28,11 +31,34 @@
 
   .hot-sale {
     height: 200px;
+    margin-left: auto;
+    margin-top: 20px;
   }
 
   .customer-list {
     flex-wrap: wrap;
-    height: 200px;
+    height: auto;
+    justify-content: center;
+
+  }
+
+  .customer-list img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+  }
+
+  .hot-links {
+    height: auto;
+  }
+
+  .hot-links .free-ship {
+    flex-wrap: wrap;
+  }
+
+  .subscription {
+    height: auto;
+    padding-bottom: 20px;
   }
 
   .testimonials p > br {
@@ -57,7 +83,101 @@
   }
 
   .subscription .search button {
-    width: 276px;
+    width: 160px;
+  }
+
+  .testimonials {
+    height: auto;
+    padding-bottom: 32px;
+  }
+
+  .contacts {
+    height: auto;
+  }
+
+  .contacts .connection {
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .footer-share .footer-share-facebook,
+  .footer-share .footer-share-google {
+    margin-left: 20px;
+  }
+
+  .footer .footer-privacy {
+    width: 350px;
+  }
+
+  .footer {
+    height: 100px;
+
+  }
+
+  .footer-share .footer-share-twitter {
+    display: block;
+    margin-top: 0;
+
+  }
+
+  .footer-share .footer-share-google {
+    display: block;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .footer-share .footer-share-facebook {
+    display: block;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .products .title {
+    text-align: center;
+  }
+
+  .slider-header .posts {
+    text-align: center;
+  }
+
+  .product {
+    flex-wrap: wrap;
+  }
+
+  .flex-space-between {
+    flex-wrap: wrap;
+
+  }
+
+  .slider .new {
+    padding-top: 0;
+  }
+
+  .slider-content {
+    padding-left: 5px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+  }
+
+  .header-search {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .featured-product + .featured-product {
+    border-left: 1px solid #e6e6e6;
   }
 }
 

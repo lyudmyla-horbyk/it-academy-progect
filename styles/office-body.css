@@ -1,0 +1,217 @@
+
+.office-body {
+  padding-top: 30px;
+  display: flex;
+}
+
+.office-body .chairs img {
+  border: 1px solid #dbc5b4;
+}
+
+.office-body .chairs {
+  width: 150px;
+  border: 1px solid grey;
+
+}
+
+.office-body .chairs .chair-preview {
+  width: 138px;
+  height: 178px;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.office-body .chairs .chair-preview:last-child {
+  padding-bottom: 0;
+}
+
+.office-body .choose-chair {
+  width: 492px;
+  height: 592px;
+  border: 4px solid #dbc5b4;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.choose-chair img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.information-details {
+  width: 450px;
+  height: 592px;
+  border: 4px solid #dbc5b4;
+  margin-left: 30px;
+
+}
+
+.information-details .name-information {
+  font: 1.875em 'Montserrat SemiBold';
+  margin: 0 auto;
+
+}
+
+.information-details .rating {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.information-details .rating .star {
+  background: url('../images/star.png') no-repeat;
+  width: 16px;
+  height: 15px;
+  margin-right: 5px;
+
+}
+
+.information-details .rating p {
+  font: 1em 'Montserrat';
+  font-weight: 300;
+  color: #999999;
+
+}
+
+.information-details .rating .active.star {
+  background-image: url('../images/star-active.png');
+  width: 16px;
+  height: 15px;
+}
+
+.product-meta {
+  display: flex;
+  padding-top: 20px;
+}
+
+.product-meta .stock {
+  background: url('../images/in-stock-.png') no-repeat;
+  width: 60px;
+  height: 18px;
+  padding-left: 25px;
+  font: 1.05em 'Montserrat';
+  font-weight: 300;
+  color: #666666;
+}
+
+.product-meta .SKU {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.product-meta .SKU span,
+.product-meta .category-product span {
+  font: 1.05em 'Montserrat';
+  font-weight: 300;
+  color: #666666;;
+}
+
+.text-description p {
+  font: 1.05em 'Montserrat';
+  font-weight: 300;
+  color: #666666;
+  line-height: 1.7;
+  word-spacing: 3px;
+  padding-top: 5px;
+}
+
+.price {
+  font: 1.688em 'Montserrat';
+  color: #ff0000;
+
+}
+
+.price s {
+  font-weight: 300;
+  color: #cccccc;
+  padding-right: 35px;
+
+}
+
+.color-swatch p {
+  font: 1.250em 'Montserrat';
+  color: #333333;
+  display: inline;
+  padding-right: 10px;
+
+}
+
+.color-swatch {
+  display: table;
+  padding-top: 25px;
+  padding-bottom: 20px;
+
+}
+
+.color-swatch__item {
+  display: table-cell;
+  line-height: 16px;
+  text-align: center;
+  user-select: none;
+  width: 20px;
+  transition: 0.25s;
+  border: 1px solid #cccccc;
+}
+
+.color-swatch__item:hover {
+  z-index: 1;
+  transform: scale(1.5);
+}
+
+[type="radio"]:checked + label:after {
+  content: '\f00c';
+  font-size: 9px;
+  vertical-align: top;
+  color: #fff;
+  font-family: FontAwesome, serif;
+}
+
+.links {
+  display: flex;
+}
+
+.add-to {
+  background-color: #be926f;
+  font: 1.188em 'Montserrat';
+  text-transform: uppercase;
+  color: #f7f7f7;
+  text-decoration: none;
+  padding: 17px 15px;
+  margin-left: 100px;
+  height: 23px;
+  margin-top: 14px;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.links ul a {
+  display: block;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #999999;
+  background: center no-repeat;
+
+}
+
+.links .to-favorites {
+  background-image: url(../images/office-icon-fav.png);
+  margin-right: 15px;
+}
+
+.links .to-comparison {
+  background-image: url(../images/office-icon-compare.png);
+
+}
+
+.share-on p {
+  font: 1.250em 'Montserrat';
+  color: #333333;
+
+}

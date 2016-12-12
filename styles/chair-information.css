@@ -1,0 +1,50 @@
+.chair-information {
+  height: 500px;
+  border: 1px solid #be926f;
+  margin-top: 55px;
+}
+
+.chair-information #tabs h2 {
+  color: #333333;
+  font: 1.2em 'Montserrat';
+}
+
+.chair-information #tabs p {
+  font: 1.1em 'Montserrat';
+  font-weight: 300;
+  color: #666666;
+
+}
+
+.chair-information #tabs ul li {
+  list-style: none;
+  border: 1px solid #be926f;
+}
+
+.chair-information #tabs ul {
+  padding: 0;
+  display: flex;
+  margin: 0;
+  height: 50px;
+}
+
+.chair-information #tabs a {
+  text-decoration: none;
+}
+
+.chair-information #tabs .active {
+  font: 1.250em 'Montserrat';
+  color: #be926f;
+
+}
+
+.chair-information #tabs .reviews {
+  font: 1.250em 'Montserrat';
+  color: #666666;
+}
+
+.chair-information #tabs .addition-information {
+  font: 1.250em 'Montserrat';
+  color: #666666;
+
+}

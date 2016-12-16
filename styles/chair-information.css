@@ -1,7 +1,10 @@
 .chair-information {
-  height: 500px;
-  border: 1px solid #be926f;
   margin-top: 55px;
+}
+
+.chair-information #tabs .product-description {
+  border: 1px solid #be926f;
+  height: 450px;
 }
 
 .chair-information #tabs h2 {
@@ -19,6 +22,10 @@
 .chair-information #tabs ul li {
   list-style: none;
   border: 1px solid #be926f;
+  border-bottom: none;
+  padding: 15px;
+  margin-right: 5px;
+  outline: none;
 }
 
 .chair-information #tabs ul {
@@ -30,21 +37,14 @@
 
 .chair-information #tabs a {
   text-decoration: none;
+  outline: none;
 }
 
-.chair-information #tabs .active {
+.chair-information #tabs .tab-heading a {
   font: 1.250em 'Montserrat';
+  color: #666666;
+}
+
+.chair-information #tabs .tab-heading.ui-state-active a {
   color: #be926f;
-
-}
-
-.chair-information #tabs .reviews {
-  font: 1.250em 'Montserrat';
-  color: #666666;
-}
-
-.chair-information #tabs .addition-information {
-  font: 1.250em 'Montserrat';
-  color: #666666;
-
 }

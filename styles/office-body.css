@@ -42,7 +42,6 @@
 .information-details {
   width: 450px;
   height: 592px;
-  border: 4px solid #dbc5b4;
   margin-left: 30px;
 
 }
@@ -143,6 +142,7 @@
   display: table;
   padding-top: 25px;
   padding-bottom: 20px;
+  border-spacing: 5px;
 
 }
 
@@ -153,7 +153,9 @@
   user-select: none;
   width: 20px;
   transition: 0.25s;
-  border: 1px solid #cccccc;
+  border: 2px solid #f7f7f7;
+  outline: 1px solid #cccccc;
+
 }
 
 .color-swatch__item:hover {
@@ -173,6 +175,35 @@
   display: flex;
 }
 
+.input-wrapper {
+  width: 50px;
+  display: flex;
+  padding-top: 13px;
+}
+
+.input-wrapper input {
+  width: 54px;
+  font: 1.625em 'Montserrat';
+  color: #333333;
+  text-align: center;
+  height: 54px;
+  border: 1px solid #cccccc;
+}
+
+
+.plus-minus button {
+  width: 29px;
+  height: 29px;
+  padding: 0;
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  font:  1.625em 'Montserrat';
+  color: #666666;
+  display: block;
+
+}
+
 .add-to {
   background-color: #be926f;
   font: 1.188em 'Montserrat';
@@ -180,9 +211,15 @@
   color: #f7f7f7;
   text-decoration: none;
   padding: 17px 15px;
-  margin-left: 100px;
+  margin-left: 55px;
   height: 23px;
   margin-top: 14px;
+  transition: 0.5s;
+}
+
+.add-to:hover{
+  background-color: #c48350;
+  transition: 0.5s;
 }
 
 .links ul {
@@ -201,17 +238,53 @@
 }
 
 .links .to-favorites {
-  background-image: url(../images/office-icon-fav.png);
+  background-image: url('../images/office-icon-fav.png');
   margin-right: 15px;
 }
 
 .links .to-comparison {
-  background-image: url(../images/office-icon-compare.png);
+  background-image: url('../images/office-icon-compare.png');
 
+}
+
+.share-on {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .share-on p {
   font: 1.250em 'Montserrat';
   color: #333333;
+  padding-right: 13px;
+
+}
+
+.share-on .share-icon {
+  padding-right: 14px;
+}
+
+.share-on .share-icon-facebook {
+  background: url('../images/share-facebook.jpg') no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.share-on .share-icon-twitter {
+  background: url('../images/share-twitter.jpg') no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.share-on .share-icon-google {
+  background: url('../images/share-google.jpg') no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.share-on .share-icon-pinterest {
+  background: url('../images/share-pinterest.jpg') no-repeat;
+  width: 40px;
+  height: 40px;
 
 }

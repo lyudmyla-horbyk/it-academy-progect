@@ -95,13 +95,13 @@
   <div class="information-details">
     <h2 class="name-information">Office chair</h2>
     <div class="rating">
-      <div class="active star">
+      <div class=" star">
       </div>
-      <div class="active star">
+      <div class=" star">
       </div>
-      <div class="active star">
+      <div class=" star">
       </div>
-      <div class="active star">
+      <div class=" star">
       </div>
       <div class="star">
       </div>
@@ -134,6 +134,15 @@
       <label class="color-swatch__item" for="color-f71751" style="background: #f71751"></label>
     </div>
     <div class="links">
+      <div class="input-wrapper">
+        <label>
+          <input type="text" value="1">
+        </label>
+        <div class="plus-minus">
+          <button class="plus">+</button>
+          <button class="minus">-</button>
+        </div>
+      </div>
       <a href="#" class="add-to">Add to Cart</a>
       <ul class="list">
         <li><a href="#" class="to-favorites"></a></li>
@@ -142,10 +151,11 @@
     </div>
     <div class="share-on">
       <p>Share on:</p>
-      <a href="#" class="share-facebook"></a>
-      <a href="#" class="share-twitter"></a>
-      <a href="#" class="share-google"></a>
-      <a href="#" class="share-"></a>
+      <a href="#" class="share-icon share-icon-facebook"></a>
+      <a href="#" class="share-icon share-icon-twitter"></a>
+      <a href="#" class="share-icon share-icon-google"></a>
+      <a href="#" class="share-icon share-icon-pinterest"></a>
+
     </div>
   </div>
 </div>
@@ -155,33 +165,52 @@
 <div class=" container chair-information">
   <div id="tabs">
     <ul>
-      <li><a href="#tabs-1" class="active">Description</a></li>
-      <li><a href="#tabs-2" class="reviews">Reviews (23)</a></li>
-      <li><a href="#tabs-3" class="addition-information">Additional Information</a></li>
+      <li class="tab-heading"><a href="#tabs-1">Description</a></li>
+      <li class="tab-heading"><a href="#tabs-2">Reviews (23)</a></li>
+      <li class="tab-heading"><a href="#tabs-3">Additional Information</a></li>
     </ul>
-    <h2>Product Description</h2>
-    <div id="tabs-1">
-      <p>Proident adipisicing laborum beef ribs tri-tip dolore meatball tempor rump flank prosciutto elit do. Duis
-        tenderloin culpa excepteur. Fugiat irure est cupim dolor, ut nulla id andouille chicken spare ribs eiusmod
-        brisket biltong. Eiusmod minim tail cupim labore ad filet mignon, andouille esse enim. Sausage salami dolor ex
-        adipisicing consequat. Ground round nostrud ut fatback voluptate consequat in minim drumstick culpa dolore. Ea
-        beef prosciutto in sirloin fatback enim velit consectetur in pork belly pancetta culpa shank.</p>
-    </div>
-    <div id="tabs-2">
-      <p>Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball
-        corned beef elit ut fugiat. Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken
-        incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa
-        aliqua.</p>
-    </div>
-    <div id="tabs-3">
-      <p>In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue doner
-        short loin. Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint
-        sirloin ham hock cupidatat laboris. Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
-        Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.</p>
-      <p>Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt. Ground round picanha ut
-        boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip. Id ipsum
-        esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit. Enim eu kevin, tail in nisi
-        nulla sirloin adipisicing veniam dolore.</p>
+    <div class="product-description">
+      <div id="tabs-1">
+        <h2>Product Description</h2>
+        <p>Proident adipisicing laborum beef ribs tri-tip dolore meatball tempor rump flank prosciutto elit do. Duis
+          tenderloin culpa excepteur. Fugiat irure est cupim dolor, ut nulla id andouille chicken spare ribs eiusmod
+          brisket biltong. Eiusmod minim tail cupim labore ad filet mignon, andouille esse enim. Sausage salami dolor ex
+          adipisicing consequat. Ground round nostrud ut fatback voluptate consequat in minim drumstick culpa dolore. Ea
+          beef prosciutto in sirloin fatback enim velit consectetur in pork belly pancetta culpa shank.</p>
+        <p>Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball
+          corned beef elit ut fugiat. Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken
+          incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa
+          aliqua.</p>
+        <p>In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue
+          doner
+          short loin. Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint
+          sirloin ham hock cupidatat laboris. Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
+          Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.</p>
+        <p>Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt. Ground round picanha ut
+          boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip. Id ipsum
+          esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit. Enim eu kevin, tail in nisi
+          nulla sirloin adipisicing veniam dolore.</p>
+
+      </div>
+      <div id="tabs-2">
+        <h2>Reviews</h2>
+        <p>Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball
+          corned beef elit ut fugiat. Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken
+          incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa
+          aliqua.</p>
+      </div>
+      <div id="tabs-3">
+        <h2>Additional Information</h2>
+        <p>In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue
+          doner
+          short loin. Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint
+          sirloin ham hock cupidatat laboris. Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
+          Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.</p>
+        <p>Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt. Ground round picanha ut
+          boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip. Id ipsum
+          esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit. Enim eu kevin, tail in nisi
+          nulla sirloin adipisicing veniam dolore.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -423,7 +452,8 @@
 </footer>
 
 <!--FOOTER-->
-
+<script src="scripts/jquery-3.1.1.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
 <script src="scripts/index.js"></script>
 
 

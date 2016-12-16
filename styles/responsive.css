@@ -5,8 +5,21 @@
 
   }
 
+  .header-nav {
+    flex-basis: 100%;
+    padding-right: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+  }
+
+  .header-nav.active {
+    height: 200px;
+  }
+
   .header-nav li + li {
-    margin-left: 15px;
+    display: block;
+    margin: 0;
   }
 
   .featured-product {
@@ -159,12 +172,9 @@
     padding-left: 5px;
   }
 
-  .header-nav {
-    display: none;
-  }
-
   .menu-toggle {
     display: block;
+    margin-top: 0;
   }
 
   .header-logo {
@@ -178,6 +188,10 @@
 
   .featured-product + .featured-product {
     border-left: 1px solid #e6e6e6;
+  }
+
+  .header-cart {
+    margin-top: 0;
   }
 }
 

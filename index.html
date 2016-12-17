@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="styles/fonts.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 <body>
 
@@ -70,13 +72,26 @@
 <div class="page-body">
   <div class="container">
     <div class="slider">
-      <div class="slider-content">
-        <h2 class="number">2015</h2>
-        <h2 class="new">new</h2>
-        <h2 class="collections">Collections</h2>
-        <h2 class="subtitle">New colors and creative prints!</h2>
-        <div class="slider-button">
-          <a href="#">shop now</a>
+      <div class="slide">
+        <div class="slider-content">
+          <h2 class="number">2015</h2>
+          <h2 class="new">new</h2>
+          <h2 class="collections">Collections</h2>
+          <h2 class="subtitle">New colors and creative prints!</h2>
+          <div class="slider-button">
+            <a href="#">shop now</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('images/slider-image2.jpg');">
+        <div class="slider-content">
+          <h2 class="number">2015</h2>
+          <h2 class="new">new</h2>
+          <h2 class="collections">Collections 2</h2>
+          <h2 class="subtitle">New colors and creative prints!</h2>
+          <div class="slider-button">
+            <a href="#">shop now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -320,7 +335,61 @@
     </div>
 
     <div class="goods">
-      <div class="goods-list">
+      <div class="goods-list slider2">
+        <a href="#" class="featured-goods">
+          <div class="goods-image">
+            <img src="images/care-food.jpg" alt="care food" width="270" height="210"/>
+          </div>
+          <div class="goods-category">Care wood</div>
+          <div class="goods-title">How to Care for Wood Furni-<br>ture</div>
+          <div class="time">
+            <img src="images/clock.png" alt="clock" height="16" width="16"/>
+            <p>16 July at 15:44</p>
+          </div>
+          <div class="underscore"></div>
+        </a>
+        <a href="#" class="featured-goods">
+          <div class="goods-image">
+            <img src="images/furniture.jpg" alt="care food" width="270" height="210"/>
+          </div>
+          <div class="furniture-category">Furniture</div>
+          <div class="goods-title">New colour combinations<br>
+            for Toldbod
+          </div>
+          <div class="time">
+            <img src="images/clock.png" alt="clock" height="16" width="16"/>
+            <p>14 July at 13:03</p>
+          </div>
+          <div class="underscore"></div>
+        </a>
+        <a href="#" class="featured-goods">
+          <div class="goods-image">
+            <img src="images/category.jpg" alt="care food" width="270" height="210"/>
+          </div>
+          <div class="category">Category</div>
+          <div class="goods-title">Ceramic Bowl Planter with<br>
+            Wooden Plinth
+          </div>
+          <div class="time">
+            <img src="images/clock.png" alt="clock" height="16" width="16"/>
+            <p>12 July at 17:48</p>
+          </div>
+          <div class="underscore"></div>
+        </a>
+        <a href="#" class="featured-goods">
+          <div class="goods-image">
+            <img src="images/beauty.jpg" alt="care food" width="270" height="210"/>
+          </div>
+          <div class="beauty-category">Beauty</div>
+          <div class="goods-title">This version of About<br>
+            A Chair
+          </div>
+          <div class="time">
+            <img src="images/clock.png" alt="clock" height="16" width="16"/>
+            <p>10 July at 09:37</p>
+          </div>
+          <div class="underscore"></div>
+        </a>
         <a href="#" class="featured-goods">
           <div class="goods-image">
             <img src="images/care-food.jpg" alt="care food" width="270" height="210"/>
@@ -501,8 +570,10 @@
 </footer>
 
 <!--FOOTER-->
-
+<script src="scripts/jquery-3.1.1.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
 <script src="scripts/index.js"></script>
-
+<script src="slick/slick.min.js"></script>
+<script src="scripts/slider.js"></script>
 </body>
 </html>

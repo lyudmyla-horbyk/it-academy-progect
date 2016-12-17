@@ -201,6 +201,7 @@
   font:  1.625em 'Montserrat';
   color: #666666;
   display: block;
+  user-select: none;
 
 }
 

@@ -4,7 +4,11 @@
 
 .chair-information #tabs .product-description {
   border: 1px solid #be926f;
-  height: 450px;
+  height:auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .chair-information #tabs h2 {
@@ -16,6 +20,7 @@
   font: 1.1em 'Montserrat';
   font-weight: 300;
   color: #666666;
+  padding-top: 8px;
 
 }
 

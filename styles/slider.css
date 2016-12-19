@@ -1,8 +1,8 @@
 .slide {
   margin-top: 30px;
   overflow: hidden;
-  background-image: url("../images/slider-image.jpg");
   height: 480px;
+  background-repeat: no-repeat;
   background-position-x: -9px;
   background-position-y: -4px;
 }

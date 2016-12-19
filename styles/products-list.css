@@ -34,6 +34,8 @@
   display: flex;
   padding: 0;
   list-style: none;
+  overflow: hidden;
+  height: 388px;
 
 }
 
@@ -364,7 +366,7 @@
 
 }
 
-.goods-image {
+.goods-image img {
   border: 1px solid #ffe0cb;
 }
 

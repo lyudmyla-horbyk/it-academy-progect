@@ -173,6 +173,6 @@
   border: 1px solid grey;
   margin-top: 36px;
   border-radius: 5px;
-  background: url("data:image/svg+xml;charset=utf8,") no-repeat;
+  background: url('data:image/svg+xml;charset=utf8,') no-repeat;
   display: none;
 }

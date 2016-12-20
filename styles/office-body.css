@@ -16,12 +16,11 @@
 
 .office-body .chairs {
   width: 150px;
-  border: 1px solid grey;
 
 }
 
 .office-body .chairs .chair-preview {
-  width: 138px;
+  width: 142px;
   height: 178px;
   overflow: hidden;
   display: block;

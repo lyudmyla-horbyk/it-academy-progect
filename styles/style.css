@@ -8,7 +8,9 @@
 @import url(hot-links.css);
 @import url(contacts.css);
 @import url(footer.css);
-@import url(responsive.css);
 @import url(container-contact.css);
 @import url(office-body.css);
 @import url(chair-information.css);
+
+/* LaST */
+@import url(responsive.css);

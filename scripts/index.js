@@ -44,5 +44,15 @@ $(document).ready(function () {
     }
   });
 
+//gallery
+  var $chairLink = $('.chairs a.chair-preview');
+  $chairLink.on('click', function (e) {
+    e.preventDefault();
+    var $chairLink = $(this).attr('href');
+    console.log('стілець',$chairLink);
+    var $chair = $('.choose-chair img');
+    $chair.attr('src',$chairLink);
 
+
+  })
 });

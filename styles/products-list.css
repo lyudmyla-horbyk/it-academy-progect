@@ -144,7 +144,7 @@
 }
 
 .product-actions .addition-links .to-favorites {
-  background-image: url(../images/icon-fav.png);
+  background-image: url(../graphic-img/icon-fav.png);
   transition: 0.5s;
 }
 
@@ -154,7 +154,7 @@
 }
 
 .product-actions .addition-links .to-comparison {
-  background-image: url(../images/icon-compare.png);
+  background-image: url(../graphic-img/icon-compare.png);
   transition: 0.5s;
 
 }
@@ -165,7 +165,7 @@
 }
 
 .product-actions .addition-links .zoom {
-  background-image: url(../images/icon-zoom.png);
+  background-image: url(../graphic-img/icon-zoom.png);
   transition: 0.5s;
 }
 
@@ -299,11 +299,12 @@
 }
 
 .slider-header .posts {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  line-height: 1;
+  padding-top: 27px;
+  padding-bottom: 12px;
 }
 
 .posts {
@@ -331,6 +332,7 @@
   display: flex;
   height: 23px;
   line-height: 23px;
+  padding-top: 29px;
 
 }
 
@@ -346,7 +348,7 @@
 .left-arrow span,
 .right-arrow span {
   text-transform: uppercase;
-  font-size: 0.866em;
+  font-size: 0.970em;
   font-weight: 700;
   padding-left: 15px;
   padding-right: 15px;

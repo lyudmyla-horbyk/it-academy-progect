@@ -5,10 +5,7 @@
 .chair-information #tabs .product-description {
   border: 1px solid #be926f;
   height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-top: 5px;
+  padding: 5px 20px 10px 20px;
 }
 
 .chair-information #tabs h2 {
@@ -21,6 +18,7 @@
   font-weight: 300;
   color: #666666;
   padding-top: 8px;
+  line-height: 1.6;
 
 }
 
@@ -29,8 +27,17 @@
   border: 1px solid #be926f;
   border-bottom: none;
   padding: 15px;
-  margin-right: 5px;
   outline: none;
+  margin-bottom: -1px;
+  margin-right: 5px;
+}
+
+.chair-information #tabs ul li.ui-state-active {
+  border-top: 4px solid #be926f;
+  padding-top: 12px;
+  border-bottom: 0;
+  background-color: white;
+  margin-bottom: -1px;
 }
 
 .chair-information #tabs ul {

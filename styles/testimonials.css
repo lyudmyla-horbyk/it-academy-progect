@@ -12,8 +12,11 @@
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 12px;
   margin-bottom: 10px;
@@ -40,6 +43,7 @@
 .rhombus {
   width: 60px;
   height: 60px;
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   box-sizing: border-box;
   background-color: #ffffff;

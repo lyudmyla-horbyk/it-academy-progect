@@ -11,8 +11,10 @@
 }
 
 .featured-product {
+  -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
   box-sizing: border-box;
+  -ms-flex-negative: 0;
   flex-shrink: 0; /*щоб елементи незвужувалися*/
   border: 1px solid #e6e6e6;
   padding: 22px 37px 17px 38px;
@@ -31,6 +33,7 @@
 }
 
 .featured-products-list {
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
   list-style: none;
@@ -131,7 +134,9 @@
 }
 
 .product-actions .addition-links ul {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -194,6 +199,7 @@
 }
 
 .product {
+  display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
   transition: 0.5s;
@@ -208,7 +214,9 @@
 .sneakers-product-item {
   width: 49%;
   height: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -222,8 +230,10 @@
 }
 
 .sneakers-product {
+  display: -ms-flexbox;
   display: flex;
   padding-left: 20px;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -250,8 +260,10 @@
 }
 
 .hot-sale {
+  display: -ms-flexbox;
   display: flex;
   margin-left: 30px;
+  -ms-flex-align: center;
   align-items: center;
   padding-left: 17px;
   box-sizing: border-box;
@@ -276,9 +288,12 @@
   border: 1px solid #e6e6e6;
   height: 139px;
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 12px;
   padding-right: 14px;
@@ -313,7 +328,9 @@
 }
 
 .slider-header {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 30px;
 
@@ -329,6 +346,7 @@
   text-decoration: none;
   color: #999999;
   transition: 0.5s;
+  display: -ms-flexbox;
   display: flex;
   height: 23px;
   line-height: 23px;
@@ -337,6 +355,7 @@
 }
 
 .left-arrow svg {
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -362,8 +381,10 @@
 }
 
 .goods-list {
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
 }
@@ -374,14 +395,18 @@
 
 .featured-goods {
   box-sizing: border-box;
+  -ms-flex-negative: 0;
   flex-shrink: 0; /*щоб елементи незвужувалися*/
   text-align: center;
   text-decoration: none;
 }
 
 .time {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 10px;
 }
@@ -440,5 +465,4 @@
   letter-spacing: 2px;
   padding-top: 24px;
 }
-
 

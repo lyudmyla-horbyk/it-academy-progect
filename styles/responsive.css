@@ -4,12 +4,6 @@
     border: none;
   }
 
-  .chair-information #tabs ul li {
-    margin-right: 0;
-    width: 256px;
-
-  }
-
   .office-body .chairs {
     padding-left: 74px;
   }
@@ -33,6 +27,7 @@
   }
 
   .header-nav {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     padding-right: 0;
     height: 0;
@@ -50,6 +45,7 @@
   }
 
   .sneakers-product {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 200px;
   }
@@ -66,8 +62,10 @@
   }
 
   .customer-list {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: auto;
+    -ms-flex-pack: center;
     justify-content: center;
 
   }
@@ -83,6 +81,7 @@
   }
 
   .hot-links .free-ship {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
@@ -101,10 +100,12 @@
 
   .subscription .information,
   .subscription .search {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .subscription {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
@@ -126,6 +127,7 @@
   }
 
   .contacts .connection {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -146,18 +148,23 @@
   }
 
   .media {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .footer .footer-copyright,
   .footer .footer-privacy,
   .footer .footer-share {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .footer-share {
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-align: center;
     align-items: center;
 
     padding-bottom: 15px;
@@ -186,10 +193,12 @@
   }
 
   .product {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .flex-space-between {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
   }
@@ -233,18 +242,22 @@
   }
 
   .office-body {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .office-body .chair-gallery {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .office-body .choose-chair {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .information-details {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-top: 20px;
     margin-left: 0;
@@ -252,11 +265,13 @@
   }
 
   .links {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .links ul {
     padding-left: 0;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
@@ -275,12 +290,22 @@
 
   .chair-information #tabs ul {
     height: auto;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .chair-information #tabs ul li {
     border-bottom: 1px solid #be926f;
     margin-right: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
+  .header-search button{
+    height: 46px;
+  }
+  .header-search input{
+    height: 46px;
   }
 
 }
@@ -292,6 +317,7 @@
   }
 
   .sneakers-product {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 200px;
   }
@@ -327,18 +353,22 @@
   }
 
   .office-body {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .office-body .chair-gallery {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .office-body .choose-chair {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .information-details {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-top: 20px;
     margin-left: 0;
@@ -357,18 +387,22 @@
   }
 
   .office-body {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .office-body .chair-gallery {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .office-body .choose-chair {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 
   .information-details {
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-top: 20px;
     margin-left: 0;

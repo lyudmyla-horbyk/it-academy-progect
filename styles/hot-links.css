@@ -7,8 +7,11 @@
 }
 
 .hot-links .free-ship {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-align: center;
   align-items: center;
   height: inherit;
   padding-left: 12px;
@@ -28,7 +31,9 @@
 }
 
 .hot-links .link .inform {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -40,4 +45,3 @@
   padding-left: 11px;
   letter-spacing: 0.5px;
 }
-

@@ -1,10 +1,11 @@
-
 .office-body {
   padding-top: 30px;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .office-body .chair-gallery {
+  display: -ms-flexbox;
   display: flex;
   width: 60%;
 
@@ -12,11 +13,6 @@
 
 .office-body .chairs img {
   border: 1px solid #dbc5b4;
-}
-
-.office-body .chairs {
-  width: 150px;
-
 }
 
 .office-body .chairs .chair-preview {
@@ -52,6 +48,7 @@
 .information-details {
   height: 592px;
   margin-left: 30px;
+  -ms-flex-preferred-size: 40%;
   flex-basis: 40%;
 
 }
@@ -65,13 +62,15 @@
 .information-details .rating {
   width: 200px;
   height: 30px;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 10px;
 }
 
 .information-details .rating .star {
-  background: url('../images/star.png') no-repeat;
+  background: url('../graphic-img/star.png') no-repeat;
   width: 16px;
   height: 15px;
   margin-right: 5px;
@@ -86,18 +85,19 @@
 }
 
 .information-details .rating .active.star {
-  background-image: url('../images/star-active.png');
+  background-image: url('../graphic-img/star-active.png');
   width: 16px;
   height: 15px;
 }
 
 .product-meta {
+  display: -ms-flexbox;
   display: flex;
   padding-top: 20px;
 }
 
 .product-meta .stock {
-  background: url('../images/in-stock-.png') no-repeat;
+  background: url('../graphic-img/in-stock-.png') no-repeat;
   width: 60px;
   height: 18px;
   padding-left: 25px;
@@ -160,6 +160,9 @@
   display: table-cell;
   line-height: 16px;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   width: 20px;
   transition: 0.25s;
@@ -170,6 +173,7 @@
 
 .color-swatch__item:hover {
   z-index: 1;
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
@@ -182,11 +186,13 @@
 }
 
 .links {
+  display: -ms-flexbox;
   display: flex;
 }
 
 .input-wrapper {
   width: 50px;
+  display: -ms-flexbox;
   display: flex;
   padding-top: 13px;
 }
@@ -210,6 +216,9 @@
   font: 1.625em 'Montserrat';
   color: #666666;
   display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 
 }
@@ -233,6 +242,7 @@
 }
 
 .links ul {
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   padding-left: 15px;
@@ -248,17 +258,19 @@
 }
 
 .links .to-favorites {
-  background-image: url('../images/office-icon-fav.png');
+  background-image: url('../graphic-img/office-icon-fav.png');
   margin-right: 15px;
 }
 
 .links .to-comparison {
-  background-image: url('../images/office-icon-compare.png');
+  background-image: url('../graphic-img/office-icon-compare.png');
 
 }
 
 .share-on {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 20px;
 }
@@ -275,25 +287,25 @@
 }
 
 .share-on .share-icon-facebook {
-  background: url('../images/share-facebook.jpg') no-repeat;
+  background: url('../graphic-img/share-facebook.jpg') no-repeat;
   width: 40px;
   height: 40px;
 }
 
 .share-on .share-icon-twitter {
-  background: url('../images/share-twitter.jpg') no-repeat;
+  background: url('../graphic-img/share-twitter.jpg') no-repeat;
   width: 40px;
   height: 40px;
 }
 
 .share-on .share-icon-google {
-  background: url('../images/share-google.jpg') no-repeat;
+  background: url('../graphic-img/share-google.jpg') no-repeat;
   width: 40px;
   height: 40px;
 }
 
 .share-on .share-icon-pinterest {
-  background: url('../images/share-pinterest.jpg') no-repeat;
+  background: url('../graphic-img/share-pinterest.jpg') no-repeat;
   width: 40px;
   height: 40px;
 

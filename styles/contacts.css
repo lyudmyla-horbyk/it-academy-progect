@@ -5,8 +5,11 @@
 }
 
 .contacts .connection {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -ms-flex-align: center;
   align-items: center;
   height: inherit;
 
@@ -53,5 +56,4 @@
   background-color: #e6e6e6;
   height: 1px;
 }
-
 

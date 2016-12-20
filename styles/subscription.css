@@ -2,8 +2,11 @@
 .subscription {
   height: 185px;
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-align: center;
   align-items: center;
 
 }
@@ -35,15 +38,12 @@
   padding-left: 15px;
   margin-right: 3px;
 
-
 }
 
 .subscription .search input:focus {
   outline: none;
 }
-.search button img{
 
-}
 .subscription .search button {
   background-color: #f8f8f8;
   border: 1px solid #be926f;
@@ -59,9 +59,13 @@
 .subscription .search button:focus {
   outline: none;
 }
-.search form{
+
+.search form {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 

@@ -42,6 +42,7 @@
 
 .chair-information #tabs ul {
   padding: 0;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   height: 50px;

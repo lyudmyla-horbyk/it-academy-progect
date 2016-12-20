@@ -1,8 +1,11 @@
 .container-contact {
   height: 117px;
   background-color: #e7e7e7;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 30px;
 }

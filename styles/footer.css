@@ -1,7 +1,9 @@
 .footer {
   height: 73px;
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -37,8 +39,11 @@
 }
 
 .media {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-align: center;
   align-items: center;
   width: inherit;
 }
@@ -83,5 +88,3 @@
 .footer-share .footer-share-facebook:hover {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAATCAMAAAB1AtffAAAAOVBMVEUAAAA2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJk2WJn4hD6XAAAAEnRSTlMAoBDQglD17ufTycOaj3JbPB9VWJ51AAAAP0lEQVQI163LtwHAMAwDQdqgnCP3H1ZfKCwgNH8NjH1nMPAvUfRE1UXulNCEZtolrWiXLMq2psPcRd3f/hitDHz5BfcOFkYkAAAAAElFTkSuQmCC");
 }
-
-

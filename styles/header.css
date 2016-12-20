@@ -5,8 +5,11 @@
 }
 
 .flex-space-between {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -62,12 +65,12 @@
 
 .header-search {
   margin-top: 30px;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .header-search input {
   width: 230px;
-  height: 46px;
   font: 0.8666em 'Montserrat';
   font-weight: 300;
   background: none;
@@ -81,12 +84,12 @@
 }
 
 .header-search button {
-  background: url(../images/search.png) 9px center no-repeat;
+  background: url(../graphic-img/search.png) 9px center no-repeat;
   border: 1px solid #666666;
   border-left: none;
+  height: auto;
   font-size: 0;
   width: 44px;
-  height: 46px;
   outline: none;
   border-radius: 0 25px 25px 0;
   transition: 0.5s;
@@ -170,6 +173,6 @@
   border: 1px solid grey;
   margin-top: 36px;
   border-radius: 5px;
-  background: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>") no-repeat;
+  background: url("data:image/svg+xml;charset=utf8,") no-repeat;
   display: none;
 }

@@ -26,18 +26,21 @@
   list-style: none;
   border: 1px solid #be926f;
   border-bottom: none;
-  padding: 15px;
   outline: none;
   margin-bottom: -1px;
   margin-right: 5px;
+  z-index: 1;
 }
 
 .chair-information #tabs ul li.ui-state-active {
   border-top: 4px solid #be926f;
-  padding-top: 12px;
   border-bottom: 0;
   background-color: white;
   margin-bottom: -1px;
+}
+
+.chair-information #tabs ul li.ui-state-active a{
+  padding-top: 12px;
 }
 
 .chair-information #tabs ul {
@@ -51,11 +54,10 @@
 .chair-information #tabs a {
   text-decoration: none;
   outline: none;
-}
-
-.chair-information #tabs .tab-heading a {
   font: 1.250em 'Montserrat';
   color: #666666;
+  padding: 15px;
+  display: block;
 }
 
 .chair-information #tabs .tab-heading.ui-state-active a {

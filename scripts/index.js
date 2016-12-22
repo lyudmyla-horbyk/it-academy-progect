@@ -54,5 +54,12 @@ $(document).ready(function () {
     $chair.attr('src',$chairLink);
 
 
-  })
+  });
+
+
+  // ===
+  // Polyfill object-fit and object-position on images on IE9, IE10, IE11, Edge, Safari, ...
+  // bfred-it/object-fit-images
+  // ===
+  objectFitImages();
 });

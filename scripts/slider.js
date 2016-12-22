@@ -126,4 +126,14 @@ $(document).ready(function () {
     e.preventDefault();
     $('.slider5').slick('slickNext');
   });
+
+
+  //slider to photo
+  $('.slider6').slick({
+    slidesToShow: 3,
+    vertical: true,
+    verticalSwiping: true,
+    arrows: false,
+    dots: false
+  })
 });

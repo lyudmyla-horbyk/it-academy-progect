@@ -4,20 +4,54 @@
     border: none;
   }
 
-  .office-body .chairs {
-    padding-left: 74px;
-  }
-
-  .choose-chair img {
+  .office-body .choose-chair img {
     display: none;
   }
 
-  .office-body .chairs .chair-preview {
-    width: auto;
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
-  .office-body .chairs img {
-    width: 138px;
+  .container-contact .contact {
+    margin: 0 auto;
+  }
+
+  .container-contact .breadcrumb {
+    margin-right: 27px;
+    margin-top: 0;
+  }
+
+  .office-body .chair-gallery {
+    margin: 0 auto;
+  }
+
+  .information-details .name-information {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-meta {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .links ul {
+    padding-top: 14px;
+  }
+
+  .share-on {
+    padding-top: 10px;
+  }
+
+  .chair-information {
+    margin-top: 20px;
+  }
+
+  .search img {
+    display: none;
   }
 }
 
@@ -26,8 +60,62 @@
     overflow-x: hidden;;
   }
 
+  .links ul {
+    padding-left: 0;
+  }
+
   .container {
     max-width: 90%;
+  }
+
+  .hot-links .link .contact {
+    width: 210px;
+  }
+
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-contact .contact {
+    margin: 0 auto;
+  }
+
+  .container-contact .breadcrumb {
+    margin-right: 27px;
+  }
+
+  .office-body .chair-gallery {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .information-details .name-information {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-meta {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .share-on {
+    padding-top: 10px;
+  }
+
+  .chair-information {
+    margin-top: 20px;
+  }
+
+  .search img {
+    display: none;
+  }
+
+  .office-body .choose-chair img {
+    display: none;
   }
 
   .header-nav {
@@ -252,12 +340,12 @@
 
   .office-body .chair-gallery {
     -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
   }
 
   .office-body .choose-chair {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
+    border: none;
   }
 
   .information-details {
@@ -273,18 +361,13 @@
     flex-wrap: wrap;
   }
 
-  .links ul {
-    padding-left: 0;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-  }
-
   .input-wrapper {
     width: auto;
   }
 
   .add-to {
     margin-left: 10px;
+    margin-right: 15px;
   }
 
   .product-meta .SKU {
@@ -346,6 +429,7 @@
 
   .hot-links .link .contact {
     padding-right: 5px;
+
   }
 
   .footer-share .footer-share-facebook,

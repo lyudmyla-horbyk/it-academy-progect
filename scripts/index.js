@@ -49,9 +49,9 @@ $(document).ready(function () {
   $chairLink.on('click', function (e) {
     e.preventDefault();
     var $chairLink = $(this).attr('href');
-    console.log('стілець',$chairLink);
+    console.log('стілець', $chairLink);
     var $chair = $('.choose-chair img');
-    $chair.attr('src',$chairLink);
+    $chair.attr('src', $chairLink);
 
 
   });

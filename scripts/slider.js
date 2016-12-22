@@ -135,5 +135,6 @@ $(document).ready(function () {
     verticalSwiping: true,
     arrows: false,
     dots: false
-  })
+  });
+
 });

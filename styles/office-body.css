@@ -3,12 +3,14 @@
   display: -ms-flexbox;
   display: flex;
 }
-.office-body .chairs{
+
+.office-body .chairs {
   height: 600px;
   width: 142px;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .office-body .chair-gallery {
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +23,7 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  font-family: 'object-fit: cover; object-position: center center;';/*IE fix*/
+  font-family: 'object-fit: cover; object-position: center center;'; /*IE fix*/
 }
 
 .office-body .chairs .chair-preview {

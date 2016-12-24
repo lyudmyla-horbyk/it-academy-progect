@@ -134,7 +134,19 @@ $(document).ready(function () {
     vertical: true,
     verticalSwiping: true,
     arrows: false,
-    dots: false
+    dots: false,
+    focusOnSelect: true,
+    infinite: true,
+    asNavFor: '.slider7',
+  });
+
+  $('.slider7').slick({
+    arrows: false,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    asNavFor: '.slider6',
   });
 
 });

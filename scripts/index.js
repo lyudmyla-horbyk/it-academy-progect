@@ -46,16 +46,19 @@ $(document).ready(function () {
 
 //gallery
   var $chairLink = $('.chairs a.chair-preview');
+  var $bigChairLink = $('.choose-chair a');
   $chairLink.on('click', function (e) {
     e.preventDefault();
-    var $chairLink = $(this).attr('href');
-    console.log('стілець', $chairLink);
-    var $chair = $('.choose-chair img');
-    $chair.attr('src', $chairLink);
+    /*    var $chairLink = $(this).attr('href');
+     console.log('стілець', $chairLink);
+     var $chair = $('.choose-chair img');
+     $chair.attr('src', $chairLink);*/
 
 
   });
-
+  $bigChairLink.on('click', function (e) {
+    e.preventDefault();
+  });
 
   // ===
   // Polyfill object-fit and object-position on images on IE9, IE10, IE11, Edge, Safari, ...

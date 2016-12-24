@@ -4,7 +4,7 @@
     border: none;
   }
 
-  .office-body .choose-chair img {
+  .office-body .chairs {
     display: none;
   }
 
@@ -60,6 +60,10 @@
     overflow-x: hidden;;
   }
 
+  .office-body .chairs {
+    display: none;
+  }
+
   .links ul {
     padding-left: 0;
   }
@@ -89,7 +93,7 @@
 
   .office-body .chair-gallery {
     margin: 0 auto;
-    width: auto;
+    width: 100%;
   }
 
   .information-details .name-information {
@@ -111,10 +115,6 @@
   }
 
   .search img {
-    display: none;
-  }
-
-  .office-body .choose-chair img {
     display: none;
   }
 
@@ -177,11 +177,6 @@
     flex-wrap: wrap;
   }
 
-  .subscription {
-    height: auto;
-    padding-bottom: 20px;
-  }
-
   .testimonials p > br {
     display: none;
   }
@@ -199,6 +194,8 @@
   .subscription {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 20px;
   }
 
   .subscription .search input {
@@ -340,12 +337,13 @@
 
   .office-body .chair-gallery {
     -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
   }
 
   .office-body .choose-chair {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    border: none;
+    width: 100%;
+    margin-left: 0;
+    outline: none;
   }
 
   .information-details {
@@ -452,8 +450,7 @@
   }
 
   .office-body .choose-chair {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    width: 100%;
   }
 
   .information-details {
@@ -486,8 +483,7 @@
   }
 
   .office-body .choose-chair {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    width: 100%;
   }
 
   .information-details {
@@ -505,6 +501,7 @@
     max-width: 1170px;
 
   }
+
 }
 
 
